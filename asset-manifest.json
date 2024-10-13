@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sunil-portfolio/static/css/main.80eb2f5a.css",
+    "main.js": "/sunil-portfolio/static/js/main.63dd514b.js",
+    "index.html": "/sunil-portfolio/index.html",
+    "main.80eb2f5a.css.map": "/sunil-portfolio/static/css/main.80eb2f5a.css.map",
+    "main.63dd514b.js.map": "/sunil-portfolio/static/js/main.63dd514b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80eb2f5a.css",
+    "static/js/main.63dd514b.js"
+  ]
+}
