@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import sunil from "../../Images/sunil.png";
+import sunil_cv from "../../Images/sunil_cv.pdf"; 
 
 function Home() {
   return (
@@ -15,7 +16,7 @@ function Home() {
           maintaining scalable APIs using Node.js.
         </p>
         <div className="btn-div">
-          <a href="/sunil_cv.pdf" download>
+          <a href={sunil_cv} download>
             <button>Download CV</button>
           </a>
           <Link to="/contact">
