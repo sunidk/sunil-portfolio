@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
+import sunil from "../../Images/sunil.png";
 
 function Home() {
   return (
@@ -18,7 +19,7 @@ function Home() {
           </Link>
         </div>
       </div>
-      <img src="/sunil.png" alt="" className="about-img" />
+      <img src={sunil} alt="" className="about-img" />
     </div>
   );
 }

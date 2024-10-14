@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import git from "../../Images/github.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,11 +16,11 @@ function Navbar() {
         <div className="container">
           <div className="logo">
             <NavLink to="/">
-              <img src="./github.png" width="15%" alt="Portfolio logo" />
+              <img src={git} width="15%" alt="Portfolio logo" />
             </NavLink>
           </div>
           <div className="menu-icon" onClick={toggleMenu}>
-            &#9776; 
+            &#9776;
           </div>
           <div className={`links ${isOpen ? "open" : ""}`}>
             <NavLink to="/">Home</NavLink>
