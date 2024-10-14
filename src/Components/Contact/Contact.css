@@ -49,6 +49,7 @@
 
 @media (max-width: 480px) {
   .contact {
+    margin-top: 50px;
     flex-direction: column;
     gap: 15%;
   }
@@ -63,7 +64,7 @@
   }
 
   .contact-img {
-    margin-bottom: 20px;
-    width: 75%; 
+    margin-bottom: 40px;
+    width: 65%; 
   }
 }
