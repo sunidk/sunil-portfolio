@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import { Link } from "react-router-dom";
 import contact from "../../Images/contact.png";
 import phone from "../../Images/phone.png";
 import email from "../../Images/email.png";
@@ -15,7 +14,7 @@ function Contact() {
       <div className="contact-container">
         <div className="contact-info">
           <img src={phone} alt="Phone" className="contact-info-logo" />
-          <Link to="/contact">+91 6363037828</Link>
+          <a href="tel:+916363037828">+91 6363037828</a>
         </div>
         <div className="contact-info">
           <img src={email} alt="Email" className="contact-info-logo" />
