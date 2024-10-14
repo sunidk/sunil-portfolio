@@ -15,7 +15,7 @@ function Home() {
           maintaining scalable APIs using Node.js.
         </p>
         <div className="btn-div">
-          <a href="/SUNIL_CV.pdf" download>
+          <a href="/sunil_cv.pdf" download>
             <button>Download CV</button>
           </a>
           <Link to="/contact">
