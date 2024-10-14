@@ -18,7 +18,7 @@ function Home() {
           </Link>
         </div>
       </div>
-      <img src="./sunil.png" alt="" className="about-img" />
+      <img src="/sunil.png" alt="" className="about-img" />
     </div>
   );
 }
