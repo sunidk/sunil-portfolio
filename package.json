@@ -18,6 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "serve": "serve -s build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -40,6 +41,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.2.0",
+    "install": "^0.13.0",
+    "npm": "^10.9.0",
+    "serve": "^14.2.3"
   }
 }
