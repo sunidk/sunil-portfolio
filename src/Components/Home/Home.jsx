@@ -12,7 +12,7 @@ function Home() {
         <div>I'm Sunil Kotian</div>
         <div>NodeJs Developer</div>
         <p>
-          Backend Developer with around 2 years of experience<br/>in designing and
+          Backend Developer with 2+ years of experience<br/>in designing and
           maintaining scalable APIs using Node.js.
         </p>
         <div className="btn-div">
