@@ -1,95 +1,105 @@
 .home {
-  color: white;
   display: flex;
-  justify-content: center;
-  gap: 8%;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 70px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 20px;
-}
-
-button {
-  padding: 15px;
+  flex-wrap: wrap;
+  padding: 3rem 10%;
+  background-color: #000;
   color: white;
-  background-color: #080808;
-  border: 2px solid grey;
-  border-radius: 6px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  min-height: calc(100vh - 62px);
+  gap: 2rem;
 }
 
-button:hover {
-  background-color: #333;
+.about {
+  flex: 1 1 450px;
+  max-width: 600px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.about div:first-child {
+  font-size: 2rem;
+  font-weight: 700;
+  color: blueviolet;
+}
+
+.about div:nth-child(2),
+.about div:nth-child(3) {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: white;
+  line-height: 1.2;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #ccc;
+  line-height: 1.6;
+  margin-top: 1rem;
 }
 
 .btn-div {
+  margin-top: 1.8rem;
+}
+
+.btn-div button {
+  padding: 10px 20px;
+  margin-right: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-div button:hover {
+  background-color: blueviolet;
+  color: black;
+  border-color: blueviolet;
+}
+
+.about-img-wrapper {
+  flex: 1 1 400px;
   display: flex;
-  gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-img {
-  width: 35%;
+  width: 100%;
   max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
-.about div {
-  font-size: 45px;
-  font-weight: bold;
-}
-
-p {
-  margin-top: 50px;
-  margin-bottom: 15px;
-  line-height: 1.5;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 768px) {
   .home {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
   }
 
-  .about div {
-    font-size: 30px;
-  }
-
-  .about-img {
-    width: 60%;
-  }
-
-  button {
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  p {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 480px) {
-  .about div {
-    font-size: 24px;
+  .about div:nth-child(2),
+  .about div:nth-child(3) {
+    font-size: 2rem;
   }
 
   .about-img {
-    width: 75%;
-  }
-
-  button {
-    padding: 8px;
-    margin-bottom: 40px;
-    font-size: 12px;
-  }
-  
-  p {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 12px;
+    max-width: 300px;
   }
 }

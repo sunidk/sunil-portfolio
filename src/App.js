@@ -1,23 +1,27 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Components/Home/Home";
-import Project from "./Components/Project/Project";
-import Contact from "./Components/Contact/Contact";
+import { lazy, Suspense } from "react";
 import Navbar from "./Components/Navbar/Navbar";
-import Skills from "./Components/Skills/Skills";
+
+const Home = lazy(() => import("./Components/Home/Home"));
+const Project = lazy(() => import("./Components/Project/Project"));
+const Skills = lazy(() => import("./Components/Skills/Skills"));
+const Contact = lazy(() => import("./Components/Contact/Contact"));
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Project />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Home />} />
-        </Routes>
+        <Suspense fallback={<div className="text-center mt-5">Loading...</div>}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Project />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Home />} />
+          </Routes>
+        </Suspense>
       </BrowserRouter>
     </div>
   );
