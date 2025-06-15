@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 
@@ -11,7 +11,7 @@ const Contact = lazy(() => import("./Components/Contact/Contact"));
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
         <Navbar />
         <Suspense fallback={<div className="text-center mt-5">Loading...</div>}>
           <Routes>
@@ -22,7 +22,7 @@ function App() {
             <Route path="*" element={<Home />} />
           </Routes>
         </Suspense>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
