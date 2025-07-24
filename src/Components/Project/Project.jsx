@@ -4,25 +4,25 @@ const projects = [
   {
     name: "Portfolio Website",
     image: "portfolio.webp",
-    link: "https://sunidk.github.io/sunil-portfolio/",
+    link: "https://sunidk-portfolio.netlify.app/",
     github: "https://github.com/sunidk/sunil-portfolio",
   },
   {
     name: "JSON Converter",
     image: "jsonconverter.webp",
-    link: "https://sunidk.github.io/json-converter/",
+    link: "https://sunidk-json-converter.netlify.app/",
     github: "https://github.com/sunidk/json-converter",
   },
   {
     name: "Shopping App",
     image: "shopping.webp",
-    link: "https://sunidk.github.io/shoppingapp/",
+    link: "https://sunidk-shopping.netlify.app/",
     github: "https://github.com/sunidk/shoppingapp",
   },
   {
     name: "Netflix",
     image: "netflix.webp",
-    link: "https://sunidk.github.io/netflix/",
+    link: "https://sunidk-netfliix.netlify.app/",
     github: "https://github.com/sunidk/netflix",
   },
   {

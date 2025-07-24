@@ -47,11 +47,11 @@ function Contact() {
         <div className="contact-info">
           <img src={website} alt="Website" className="contact-icon" loading="lazy" />
           <a
-            href="https://sunidk.github.io/sunil-portfolio/"
+            href="https://sunidk-portfolio.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            sunidk.github.io/sunil-portfolio
+            https://sunidk-portfolio.netlify.app
           </a>
         </div>
       </div>
