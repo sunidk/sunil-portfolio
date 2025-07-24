@@ -8,7 +8,7 @@ A personal portfolio website built with React to showcase projects, skills, and 
 - Project showcase section
 - About and skills sections
 - Contact form or contact information
-- Easy navigation with React Router (if used)
+- Easy navigation with React Router
 - Deployed and production-ready
 
 ## Getting Started
