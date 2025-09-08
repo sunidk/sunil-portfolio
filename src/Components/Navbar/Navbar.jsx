@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import git from "../../Images/github.webp";
+import git from "../../Images/portfolio.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
