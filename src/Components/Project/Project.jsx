@@ -8,10 +8,10 @@ const projects = [
     github: "https://github.com/sunidk/sunil-portfolio",
   },
   {
-    name: "JSON Converter",
-    image: "jsonconverter.webp",
-    link: "https://sunidk-json-converter.netlify.app/",
-    github: "https://github.com/sunidk/json-converter",
+    name: "MERN Project",
+    image: "mern.webp",
+    link: "https://sunidk-mern.netlify.app/login",
+    github: "https://github.com/sunidk/mern-project",
   },
   {
     name: "Shopping App",
@@ -19,11 +19,11 @@ const projects = [
     link: "https://sunidk-shopping.netlify.app/",
     github: "https://github.com/sunidk/shoppingapp",
   },
-  {
-    name: "Netflix",
-    image: "netflix.webp",
-    link: "https://sunidk-netfliix.netlify.app/",
-    github: "https://github.com/sunidk/netflix",
+   {
+    name: "JSON Converter",
+    image: "jsonconverter.webp",
+    link: "https://sunidk-json-converter.netlify.app/",
+    github: "https://github.com/sunidk/json-converter",
   },
   {
     name: "JWT Authentication",

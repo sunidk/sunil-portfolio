@@ -9,10 +9,13 @@ function Home() {
       <div className="about">
         <div style={{ color: "blueviolet" }}>Hi,</div>
         <div>I'm Sunil Kotian</div>
-        <div>NodeJs Developer</div>
+        <div>Full Stack Developer</div>
         <p>
-          Backend Developer with around 3 years of experience<br />
-          in designing and maintaining scalable APIs using Node.js.
+          Software Engineer with around 3 years of
+          backend experience (Node.js, Express.js, Nest.js, PostgreSQL) and
+          around 1 year in React.js. Skilled in building scalable RESTful APIs,
+          microservices in containerized environments, and experienced with AWS,
+          GCP, Redis, and authentication, with a strong Backend Engineer focus.
         </p>
         <div className="btn-div">
           <a href={sunil_cv} download="Sunil Kotian - NodeJs Developer.pdf">
