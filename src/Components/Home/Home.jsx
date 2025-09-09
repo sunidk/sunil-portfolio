@@ -18,7 +18,7 @@ function Home() {
           GCP, Redis, and authentication, with a strong Backend Engineer focus.
         </p>
         <div className="btn-div">
-          <a href={sunil_cv} download="Sunil Kotian - NodeJs Developer.pdf">
+          <a href={sunil_cv} download="Sunil Kotian - FullStack Developer.pdf">
             <button aria-label="Download CV">Download CV</button>
           </a>
           <Link to="/contact">
